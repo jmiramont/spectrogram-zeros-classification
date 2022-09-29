@@ -2,6 +2,11 @@ function [class,K,features] = classify_spectrogram_zeros(zeros_hist, zeros_pos, 
 % Classify the zeros of the spectogram of a signal given the 2d histogram
 % of zeros, computed using compute_zeros_histogram() function.
 %
+% To use this function, you must have the Time-Frequency Toolbox developed 
+% by François Auger, Olivier Lemoine, Paulo Gonçalvès and Patrick Flandrin
+% in Matlab's path variable. 
+% You can get a copy of the toolbox from: http://tftb.nongnu.org/
+%
 % Other functions needed:
 % - compute_centroids()
 %
