@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "three-types-of-zeros"
+version = "0.1.0"
+description = ""
+authors = ["Juan Manuel Miramont-Taurel <juan.miramont@univ-nantes.fr>"]
+readme = "README.md"
+packages = [{include = "three_types_of_zeros"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+numpy = "^1.23.3"
+matplotlib = "^3.5.3"
+scipy = "^1.9.1"
+cmocean = "^2.0"
+seaborn = "^0.12.0"
+ipykernel = {version = "^6.6.1", optional = true}
+Cython = "^0.29.32"
+
+[tool.poetry.extras]
+notebooks = ["ipykernel"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
