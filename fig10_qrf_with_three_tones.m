@@ -36,7 +36,7 @@ noise_matrix = noise_matrix./std(noise_matrix,[],2);
 lmax = 1.3:0.1:1.6;
 
 % Simulate different SNRs.
-SNRs = 25:5:30;
+SNRs = 0:5:30;
 
 for q = 1:length(SNRs)
     disp(q);

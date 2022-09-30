@@ -102,7 +102,7 @@ for j = 1:size(TRI,1)
     end
 end
 
-[~,MAX_EDGES,TRI_EDGES] = cuentaLados(TRI2,ceros,Nfft,T);
+[~,MAX_EDGES,TRI_EDGES] = describe_triangles(TRI2,ceros,Nfft,T);
 
 %% Find triangles with an edge larger than certain threshold
 LB = 1.3;
