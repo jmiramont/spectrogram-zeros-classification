@@ -6,6 +6,8 @@ Juan M. Miramont, François Auger, Marcelo A. Colominas, Nils Laurent, Sylvain M
 
 In order to run the python code in this folder, please install the dependencies listed in the ```.toml``` file. You can easily do this using [```poetry```](https://python-poetry.org/docs/), a tool for dependency management and packaging in python.
 
+You'll also need a functioning installation of R: [https://cran.r-project.org/](https://cran.r-project.org/).
+
 ### Installation using ```poetry```
 
 *Remark for conda users:*
@@ -21,4 +23,16 @@ First install ```poetry``` following the steps described [here](https://python-p
 
 ```bash
 poetry install 
+```
+
+If you use Linux or MacOS, install the R related packages using:
+
+```bash
+poetry install  --extras rtools
+```
+
+In Windows, use ```pip``` to install:
+
+```bash
+pip install rpy2 spatstat-interface
 ```

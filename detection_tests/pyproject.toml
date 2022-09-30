@@ -14,10 +14,11 @@ scipy = "^1.9.1"
 cmocean = "^2.0"
 seaborn = "^0.12.0"
 ipykernel = {version = "^6.6.1", optional = false}
+spatstat-interface = {version = "^0.1.3", optional = true}
 Cython = "^0.29.32"
 
 [tool.poetry.extras]
-notebooks = ["ipykernel"]
+rtools = ["spatstat-interface"]
 
 [build-system]
 requires = ["poetry-core"]
