@@ -15,3 +15,11 @@ This repository contains the Matlab and Python code used in the paper. Each matl
 3. ```classified_zeros_denoising.m```
 
 Part of the detection tests used in the paper were implemented in Python. The folder ```detection_tests``` contains notebooks displaying the results.
+
+## Dependencies for Matlab code
+
+To use the functions, you must have the Time-Frequency Toolbox developed by François Auger, Olivier Lemoine,Paulo Gonçalvès and Patrick Flandrin in Matlab's path variable.
+
+You can get a copy of the toolbox from: [http://tftb.nongnu.org/](http://tftb.nongnu.org/).
+
+Figures are printed using the function ```print_figure()```, by Roberto F. Leonarduzzi. You can get the newest version from: % Get the newest version from: [https://github.com/rleonarduzzi/matlab-fig-printing](https://github.com/rleonarduzzi/matlab-fig-printing).
