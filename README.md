@@ -8,7 +8,7 @@ The zeros of the spectrogram have proven to be a relevant feature to describe th
 
 ## Code
 
-This repository contains the Matlab and Python code used in the paper. Each matlab script is named with the figure that generates. The main functions are:
+This repository contains the Matlab and Python code used in the paper. Each Matlab script is named with the figure that generates. The main functions are:
 
 1. ```compute_zeros_histogram.m```
 2. ```classify_spectrogram_zeros```
