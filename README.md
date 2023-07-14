@@ -26,4 +26,4 @@ To use the functions, you must have the Time-Frequency Toolbox developed by Fran
 
 You can get a copy of the toolbox from: [http://tftb.nongnu.org/](http://tftb.nongnu.org/).
 
-Figures are printed using the function ```print_figure()```, by Roberto F. Leonarduzzi. You can get the newest version from: [https://github.com/rleonarduzzi/matlab-fig-printing](https://github.com/rleonarduzzi/matlab-fig-printing).
+Figures are printed using the function ```print_figure()```. You can get the newest version from: [https://github.com/rleonarduzzi/matlab-fig-printing](https://github.com/rleonarduzzi/matlab-fig-printing).
