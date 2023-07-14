@@ -4,7 +4,11 @@ Juan M. Miramont, François Auger, Marcelo A. Colominas, Nils Laurent, Sylvain M
 
 ## Abstract
 
-The zeros of the spectrogram have proven to be a relevant feature to describe the time-frequency structure of a signal, originated by the destructive interference between components in the time-frequency plane. In this work, a classification of these zeros in three types is introduced, based on the nature of the components that interfere to produce them. Echoing noise-assisted methods, a classification algorithm is proposed based on the addition of independent noise realizations to build a 2D histogram describing the stability of zeros. Features extracted from this histogram are later used to classify the zeros using a non-supervised clusterization algorithm. A denoising approach based on the classification of the spectrogram zeros is also introduced. Examples of the classification of zeros are given for synthetic and real signals, as well as a performance comparison of the proposed denoising algorithm with another zero-based approach.
+Spectrogram zeros, originated by the destructive interference between the components of a signal in the time-frequency plane, have proven to be a relevant feature to describe the time-varying frequency structure of a signal.
+In this work, we first introduce a classification of the spectrogram zeros in three classes that depend on the nature of the components that interfere to produce them.
+Then, we describe an algorithm to classify these points in an unsupervised way, based on the analysis of the stability of their location with respect to additive noise. 
+Potential uses of the classification of zeros of the spectrogram for signal detection and denoising is finally investigated, and compared with other methods on both synthetic 
+and real-world signals.
 
 ## Supplementary Material
 
