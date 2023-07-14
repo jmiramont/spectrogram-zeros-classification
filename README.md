@@ -1,4 +1,4 @@
-# Unsupervised classification of the spectrogram zeros
+# Unsupervised Classification of the Spectrogram Zeros with an Application to Signal Detection and Denoising
 
 Juan M. Miramont, François Auger, Marcelo A. Colominas, Nils Laurent, Sylvain Meignen
 
