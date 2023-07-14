@@ -16,14 +16,6 @@ Extra material can be found in  [```sup_material```](sup_material).
 
 ## Code
 
-This repository contains the Matlab and Python code used in the paper. Each Matlab script is named with the figure that generates. The main functions are:
-
-1. ```compute_zeros_histogram.m```
-2. ```classify_spectrogram_zeros```
-3. ```classified_zeros_denoising.m```
-
-Part of the detection tests used in the paper were implemented in Python. The folder ```detection_tests``` contains notebooks displaying the results.
-
 ### Dependencies for Matlab code
 
 To use the functions, you must have the Time-Frequency Toolbox developed by François Auger, Olivier Lemoine,Paulo Gonçalvès and Patrick Flandrin in Matlab's path variable.
