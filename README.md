@@ -6,6 +6,10 @@ Juan M. Miramont, François Auger, Marcelo A. Colominas, Nils Laurent, Sylvain M
 
 The zeros of the spectrogram have proven to be a relevant feature to describe the time-frequency structure of a signal, originated by the destructive interference between components in the time-frequency plane. In this work, a classification of these zeros in three types is introduced, based on the nature of the components that interfere to produce them. Echoing noise-assisted methods, a classification algorithm is proposed based on the addition of independent noise realizations to build a 2D histogram describing the stability of zeros. Features extracted from this histogram are later used to classify the zeros using a non-supervised clusterization algorithm. A denoising approach based on the classification of the spectrogram zeros is also introduced. Examples of the classification of zeros are given for synthetic and real signals, as well as a performance comparison of the proposed denoising algorithm with another zero-based approach.
 
+## Supplementary Material
+
+Extra material can be found in  [```sup_material```](sup_material).
+
 ## Code
 
 This repository contains the Matlab and Python code used in the paper. Each Matlab script is named with the figure that generates. The main functions are:
@@ -16,7 +20,7 @@ This repository contains the Matlab and Python code used in the paper. Each Matl
 
 Part of the detection tests used in the paper were implemented in Python. The folder ```detection_tests``` contains notebooks displaying the results.
 
-## Dependencies for Matlab code
+### Dependencies for Matlab code
 
 To use the functions, you must have the Time-Frequency Toolbox developed by François Auger, Olivier Lemoine,Paulo Gonçalvès and Patrick Flandrin in Matlab's path variable.
 
